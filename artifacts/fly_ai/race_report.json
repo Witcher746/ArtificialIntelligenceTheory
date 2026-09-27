@@ -1,0 +1,31 @@
+{
+  "game": "race",
+  "model": "artifacts\\fly_ai\\race_fly_agent.npz",
+  "episodes_csv": "artifacts\\fly_ai\\race_episodes.csv",
+  "pixel_only_policy": true,
+  "teacher_used_only_during_training": true,
+  "teacher_episodes": 12,
+  "reinforcement_episodes": 0,
+  "evaluation_episodes": 20,
+  "mean_imitation_loss": 0.8186098576818505,
+  "random": {
+    "episodes": 20,
+    "mean_reward": 0.1644331018518531,
+    "mean_score": 129.11082754629632,
+    "median_score": 130.27103587962972,
+    "mean_level": 0.0,
+    "mean_steps": 81.2,
+    "termination_rate": 1.0
+  },
+  "trained": {
+    "episodes": 20,
+    "mean_reward": 8.983783564814818,
+    "mean_score": 349.5945891203704,
+    "median_score": 312.74982638888866,
+    "mean_level": 0.0,
+    "mean_steps": 138.45,
+    "termination_rate": 1.0
+  },
+  "elapsed_seconds": 88.56688976287842,
+  "seed": 42
+}

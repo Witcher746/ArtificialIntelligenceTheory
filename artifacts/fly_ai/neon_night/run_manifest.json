@@ -1,0 +1,35 @@
+{
+  "started_at": "2026-09-27 00:18:05",
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 2070",
+  "config": {
+    "hours": 7.87,
+    "output_dir": "artifacts\\fly_ai\\neon_night",
+    "seed": 20260927,
+    "max_steps": 1200,
+    "replay_capacity": 20000,
+    "warmup_steps": 1000,
+    "batch_size": 128,
+    "updates_per_step": 1,
+    "learning_rate": 0.0001,
+    "gamma": 0.99,
+    "tau": 0.005,
+    "epsilon_decay_steps": 180000,
+    "teacher_steps": 50000,
+    "checkpoint_every": 5,
+    "eval_every": 10,
+    "eval_episodes": 3,
+    "thermal_limit": 83,
+    "thermal_resume": 77,
+    "cpu": false
+  },
+  "pixel_only_policy": true,
+  "reward_signals": [
+    "speed",
+    "portal",
+    "overtake",
+    "near_miss",
+    "weave",
+    "crash"
+  ]
+}

@@ -1,0 +1,4 @@
+# Minimal dependencies for headless training of the virtual fly.
+# Webcam control still uses the original requirements.txt.
+numpy>=1.24,<3
+pygame>=2.5

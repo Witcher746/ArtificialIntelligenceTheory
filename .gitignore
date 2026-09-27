@@ -1,3 +1,15 @@
 __pycache__/
 *.pyc
 .venv/
+
+# Local runtime and crash-resume state.  Keep compact exported models instead.
+artifacts/fly_ai/neon_night/replay/
+artifacts/fly_ai/neon_night/checkpoint_latest.pt
+artifacts/fly_ai/neon_night/best.pt
+artifacts/fly_ai/neon_night/status.json
+artifacts/fly_ai/neon_night/watchdog.json
+artifacts/fly_ai/neon_night_smoke/
+artifacts/fly_ai/*stdout.log
+artifacts/fly_ai/*stderr.log
+artifacts/fly_ai/*error.log
+artifacts/fly_ai/neon_watchdog_host.log
